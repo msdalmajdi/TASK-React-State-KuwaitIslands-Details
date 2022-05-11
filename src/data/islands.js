@@ -9,7 +9,7 @@ const islands = [
     id: 2,
     name: "Boubyan",
     img: "http://photos.wikimapia.org/p/00/02/20/48/92_big.jpg",
-    visitors: 0,
+    visitors: 5,
   },
   {
     id: 3,
