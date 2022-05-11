@@ -17,7 +17,7 @@ function App() {
     let position = theNewIslands.findIndex((island) => island.name === name);
     //alert(theNewIslands[position].visitors);
     theNewIslands[position].visitors++;
-    setIslandsNow(theNewIslands);
+    setIslandsNow([...theNewIslands]);
   };
   return (
     <div>
